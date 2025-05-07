@@ -9,7 +9,7 @@
 #include <ta_tpm_log.h>
 #include <tee_internal_api.h>
 
-#define LOG_SIZE		2048
+#define LOG_SIZE		693
 
 static TEE_Result invoke_system_pta(uint32_t cmd_id, uint32_t param_types,
 				    TEE_Param params[TEE_NUM_PARAMS])
